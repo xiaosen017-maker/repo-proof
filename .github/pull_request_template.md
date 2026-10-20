@@ -16,4 +16,3 @@ What review problem does this change solve?
 ## Compatibility
 
 Describe any manifest, CLI, or report compatibility impact.
-
