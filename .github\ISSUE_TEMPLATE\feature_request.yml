@@ -1,0 +1,24 @@
+name: Rule or feature proposal
+description: Propose a new evidence source, rule, or output format.
+title: "proposal: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Review problem
+      description: Describe the false positive, false negative, or missing workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Proposed evidence
+      description: Explain which observable fact should affect the result and why.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility considerations
+      description: Note schema, CLI, or report changes.
